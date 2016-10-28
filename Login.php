@@ -15,7 +15,7 @@
 
 $query = "SELECT password FROM users WHERE username = 'admin'";
     $stmt = mysqli_prepare($connection, $query);
-    mysqli_stmt_bind_param('s', $a);
+    mysqli_stmt_bind_param('s', $stmt);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_bind_result($stmt, $actualPass);
     mysqli_stmt_fetch($stmt);
