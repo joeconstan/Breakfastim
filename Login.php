@@ -8,12 +8,12 @@
     }
 
 
-//    ( $_POST["uname"] == "admin")
-//    ( $_POST["pass"] == "admin")
+    $un = ( $_POST["uname"]);
+    $pd = ( $_POST["pass"]);
 //take this all into a different file
 //    header('Location: second.php');
 
-$query = "SELECT password FROM users WHERE username = 'admin'";
+$query = "SELECT password FROM users WHERE username = $un";
 $var = 1;
     if(!$stmt = mysqli_prepare($connection, $query))
         die('could not connect:'.mysqli_error($stmt));
