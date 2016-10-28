@@ -16,7 +16,7 @@
 $query = "SELECT password FROM users WHERE username = 'admin'";
 $var = 1;
     if(!$stmt = mysqli_prepare($connection, $query))
-        die('could not connect:'.mysqli_error($connection));
+        die('could not connect:'.mysqli_error($stmt));
     if(!mysqli_stmt_bind_param('i', $var))
         die('could not connect:'.mysqli_stmt_error($stmt));
     mysqli_stmt_execute($stmt);
