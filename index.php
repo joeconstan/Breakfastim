@@ -34,15 +34,19 @@
             <div style = "margin:30px">
 
 			<form method="POST" action="login.php"id="form1">
-			<input type="text" name="uname"> Username</input><br />
-			<input type="password" name="pass"> Password</input><br />
-			<button type="submit" form="form1" value="Submit">Submit</button><br />
-</form>
+				<input type="text" name="uname"> Username</input><br />
+				<input type="password" name="pass"> Password</input><br />
+				<button type="submit" form="form1" value="Submit">Submit</button><br />
+			</form>
+			
+			 <div style = "font-size:11px; color:#cc0000; margin-top:10px"><?php echo $error; ?></div>
+					
+            </div>			
+			</div>
+			
+		</div>
 
-
-
-
-</body>
+	</body>
 
 
 </html>
