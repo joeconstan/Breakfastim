@@ -6,7 +6,7 @@
 	$mysql_host = 'localhost';
 	$mysql_user = 'breaycks';
 	$mysql_pass = 'Droidgoat.eating';
-	$dbname = 'users';
+	$dbname = 'breaycks_users';
 
 
 
