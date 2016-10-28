@@ -13,5 +13,27 @@
 //take this all into a different file
 //    header('Location: second.php');
 
+    $query = "SELECT pwd FROM users WHERE uname = 'admin'";
+    $stmt = mysqli_prepare($connection, $query);
+    mysqli_stmt_bind_param($stmt, 's', $a);
+    mysqli_stmt_execute($stmt);
+    mysqli_stmt_bind_result($stmt, $actualPass);
+    mysqli_stmt_fetch($stmt);
+    mysqli_stmt_close($stmt);
+
+
+
+
+
+    $pswd = $_POST['pass'];
+
+    if ($pswd == $actualPass){
+        header("location: http://www.breakfastim.com/second.php", true);
+        exit;
+    }else{
+        echo 'Invalid Password';
+    }
+
+    mysqli_close($connection);
 
 ?>
