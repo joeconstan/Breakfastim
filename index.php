@@ -33,7 +33,7 @@
 				
             <div style = "margin:30px">
 
-			<form method="POST" action="login.php"id="form1">
+			<form method="POST" action="Login.php"id="form1">
 				<input type="text" name="uname"> Username</input><br />
 				<input type="password" name="pass"> Password</input><br />
 				<button type="submit" form="form1" value="Submit">Submit</button><br />
