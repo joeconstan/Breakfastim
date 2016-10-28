@@ -13,7 +13,7 @@
 //take this all into a different file
 //    header('Location: second.php');
 
-    $query = "SELECT pass FROM users WHERE uname = 'admin'";
+    $query = "SELECT password FROM users WHERE username = 'admin'";
     $stmt = mysqli_prepare($connection, $query);
     mysqli_stmt_bind_param($stmt, 's', $a);
     mysqli_stmt_execute($stmt);

@@ -37,9 +37,9 @@
         <entry file="file://$PROJECT_DIR$/Login.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
               <folding>
-                <marker date="1477695500430" expanded="true" signature="370:414" ph="SELECT pass users" />
+                <marker date="1477695571268" expanded="true" signature="370:421" ph="SELECT passw... users" />
               </folding>
             </state>
           </provider>
@@ -188,12 +188,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1477691375100</updated>
-      <workItem from="1477691376993" duration="4045000" />
+      <workItem from="1477691376993" duration="4120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4045000" />
+    <option name="totallyTimeSpent" value="4120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1862" height="1096" extended-state="6" />
@@ -253,9 +253,9 @@
     <entry file="file://$PROJECT_DIR$/Login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
           <folding>
-            <marker date="1477695500430" expanded="true" signature="370:414" ph="SELECT pass users" />
+            <marker date="1477695571268" expanded="true" signature="370:421" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
