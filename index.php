@@ -1,8 +1,7 @@
-
-
 <?php
 
 ?>
+
 <html>
 
 	<head>
@@ -26,12 +25,18 @@
 		</style>
 	</head>
 
-<body>
+	<body bgcolor = "#FFFFFF">
+	
+		<div align = "center">
+			<div style = "width:300px; border: solid 1px #333333; " align = "left">
+            <div style = "background-color:#333333; color:#FFFFFF; padding:3px;"><b>Login</b></div>
+				
+            <div style = "margin:30px">
 
-<form method="POST" action="login.php"id="form1">
-    <input type="text" name="uname"> Username</input>
-	<input type="password" name="pass"> Password</input>
-    <button type="submit" form="form1" value="Submit">Submit</button>
+			<form method="POST" action="login.php"id="form1">
+			<input type="text" name="uname"> Username</input><br />
+			<input type="password" name="pass"> Password</input><br />
+			<button type="submit" form="form1" value="Submit">Submit</button><br />
 </form>
 
 
