@@ -1,19 +1,16 @@
-<html><body>
 
 
 <?php
     
-   if( $_POST["uname"] == "admin")
-        header('Location: second.php');
 
 ?>
+<html><body>
 
-
-<form method="POST" id="form1">
+<form method="POST" action="login.php"id="form1">
     <input type="text" value="username" name="uname"></input>
-    
+    <button type="submit" form="form1" value="Submit">Submit</button>
 </form>
-<button type="submit" form="form1" value="Submit">Submit</button>
+
 
 
 
