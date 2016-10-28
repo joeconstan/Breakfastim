@@ -42,9 +42,9 @@
         <entry file="file://$PROJECT_DIR$/Login.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding>
-                <marker date="1477697540388" expanded="true" signature="366:417" ph="SELECT passw... users" />
+                <marker date="1477697669076" expanded="true" signature="366:417" ph="SELECT passw... users" />
               </folding>
             </state>
           </provider>
@@ -192,12 +192,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1477691375100</updated>
-      <workItem from="1477691376993" duration="6083000" />
+      <workItem from="1477691376993" duration="6204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6083000" />
+    <option name="totallyTimeSpent" value="6204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="937" height="1087" extended-state="0" />
@@ -262,9 +262,9 @@
     <entry file="file://$PROJECT_DIR$/Login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
-            <marker date="1477697540388" expanded="true" signature="366:417" ph="SELECT passw... users" />
+            <marker date="1477697669076" expanded="true" signature="366:417" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
