@@ -14,6 +14,7 @@
 //    header('Location: second.php');
 
 $query = "SELECT password FROM users WHERE username = $un";
+    mysqli_stmt_init($connection);
     mysqli_stmt_prepare($stmt, $query);
     mysqli_stmt_bind_param($stmt, 's', $un);
         //die('could not connect:'.mysqli_stmt_error($stmt));
