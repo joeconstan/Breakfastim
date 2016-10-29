@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d501b7b-a804-46e8-a7c0-ce058e379c7f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Login.php" afterPath="$PROJECT_DIR$/Login.php" />
     </list>
     <ignored path="Breakfastim.iws" />
@@ -42,11 +41,11 @@
       <file leaf-file-name="Login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+            <state relative-caret-position="204">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
-                <marker date="1477701187631" expanded="true" signature="358:401" ph="SELECT passw... users" />
-                <marker date="1477701187631" expanded="true" signature="358:402" ph="SELECT passw... users" />
+                <marker date="1477702397978" expanded="true" signature="358:399" ph="SELECT passw... users" />
+                <marker date="1477702397978" expanded="true" signature="358:401" ph="SELECT passw... users" />
               </folding>
             </state>
           </provider>
@@ -194,12 +193,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1477691375100</updated>
-      <workItem from="1477691376993" duration="10194000" />
+      <workItem from="1477691376993" duration="10459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10194000" />
+    <option name="totallyTimeSpent" value="10459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="937" height="1087" extended-state="0" />
@@ -263,11 +262,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
-            <marker date="1477701187631" expanded="true" signature="358:401" ph="SELECT passw... users" />
-            <marker date="1477701187631" expanded="true" signature="358:402" ph="SELECT passw... users" />
+            <marker date="1477702397978" expanded="true" signature="358:399" ph="SELECT passw... users" />
+            <marker date="1477702397978" expanded="true" signature="358:401" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
