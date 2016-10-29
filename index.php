@@ -4,12 +4,14 @@
 
 <html>
 
+	<h1>Breakfastim</h1>
+	<br />
 	<head>
-		<title>Temp</title>
+		<title>Breakfastim</title>
 		
 		<style type = "text/css">
 			body {
-				font-family: Georgia, serif;
+				font-family: Arial, Helvetica, sans-serif;
 				font-size: 16px;
 			}
 			
@@ -29,7 +31,7 @@
 	
 		<div align = "center">
 			<div style = "width:300px; border: solid 1px #333333; " align = "left">
-            <div style = "background-color:#333333; color:#FFFFFF; padding:3px;"><b>Temp</b></div>
+            <div style = "background-color:#333333; color:#FFFFFF; padding:3px;"><b>Login</b></div>
 				
             <div style = "margin:30px">
 
