@@ -5,7 +5,7 @@
 <html>
 
 	<head>
-		<title>Login</title>
+		<title>Bro</title>
 		
 		<style type = "text/css">
 			body {
