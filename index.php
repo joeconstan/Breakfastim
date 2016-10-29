@@ -4,7 +4,9 @@
 
 <html>
 
-	<h1>Breakfastim</h1>
+	<h1>
+	<div style = "font-family: Cooperplate";><b>Breakfastim</b></div>
+	</h1>
 	<br />
 	<head>
 		<title>Breakfastim</title>
