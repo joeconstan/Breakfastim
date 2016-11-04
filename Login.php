@@ -20,13 +20,16 @@
         //die('could not connect:'.mysqli_stmt_error($stmt));
     mysqli_stmt_execute($stmt);
     mysqli_stmt_bind_result($stmt, $actualPass);
-    mysqli_stmt_fetch($stmt);
+    $result = mysqli_stmt_fetch($stmt);
     mysqli_stmt_close($stmt);
 
-
-
-
     $pswd = $_POST['pass'];
+
+    $count = mysqli_num_rows($result);
+    if ($count<1) {
+        echo 'Invalid Password';
+    }
+
 
     if ($pswd == $actualPass){
         header("location: http://www.breakfastim.com/second.php", true);
