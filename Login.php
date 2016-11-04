@@ -26,12 +26,8 @@
     $pswd = $_POST['pass'];
 
     $count = mysqli_num_rows($result);
-    if ($count<1) {
-        echo 'Invalid Password';
-    }
 
-
-    if ($pswd == $actualPass){
+    if ($pswd == $actualPass && $count > 0){
         header("location: http://www.breakfastim.com/second.php", true);
         exit;
     }else{
