@@ -20,12 +20,12 @@
         //die('could not connect:'.mysqli_stmt_error($stmt));
     mysqli_stmt_execute($stmt);
     mysqli_stmt_bind_result($stmt, $actualPass);
-    $result = mysqli_stmt_fetch($stmt);
-    mysqli_stmt_close($stmt);
+    mysqli_stmt_fetch($stmt);
 
     $pswd = $_POST['pass'];
-
-    $count = mysqli_num_rows($result);
+    mysqli_stmt_store_result($stmt);
+    $count = mysqli_stmt_num_rows($stmt);
+    mysqli_stmt_close($stmt);
 
     if ($pswd == $actualPass && $count > 0){
         header("location: http://www.breakfastim.com/second.php", true);
