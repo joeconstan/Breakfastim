@@ -10,8 +10,6 @@
 
     $un = ( $_POST["uname"]);
     $pd = ( $_POST["pass"]);
-//take this all into a different file
-//    header('Location: second.php');
 
     $query = "SELECT password FROM users WHERE username=?";
     $stmt = mysqli_stmt_init($connection);
@@ -20,15 +18,16 @@
         //die('could not connect:'.mysqli_stmt_error($stmt));
     mysqli_stmt_execute($stmt);
     mysqli_stmt_bind_result($stmt, $actualPass);
-    mysqli_stmt_fetch($stmt);
+
 
     $pswd = $_POST['pass'];
     mysqli_stmt_store_result($stmt);
+    mysqli_stmt_fetch($stmt);
     $count = mysqli_stmt_num_rows($stmt);
     mysqli_stmt_close($stmt);
 
     if ($pswd == $actualPass && $count > 0){
-        header("location: http://www.breakfastim.com/second.php", true);
+        header("location: http://www.breakfastim.com/chat.php", true);
         exit;
     }else{
         echo 'Invalid Password';
