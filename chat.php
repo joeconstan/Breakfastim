@@ -27,7 +27,7 @@
         <form action="#" onsubmit="return false" id="chatForm">
             <input type="hidden" id="name"/>
             <input type="text" name="text" id="text" value="" placeholder="type your message here"/>
-            <button type="submit" name="submit" value="Post">Post</button>
+            <button type="submit" name="submit" value="Post"> Post </button>
         </form>
     </div>
 
