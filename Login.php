@@ -15,7 +15,6 @@
     $stmt = mysqli_stmt_init($connection);
     mysqli_stmt_prepare($stmt, $query);
     mysqli_stmt_bind_param($stmt, 's', $un);
-        //die('could not connect:'.mysqli_stmt_error($stmt));
     mysqli_stmt_execute($stmt);
     mysqli_stmt_bind_result($stmt, $actualPass);
 
