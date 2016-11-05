@@ -23,6 +23,7 @@
     color: blue;
 }
 
+
 .chatBox > .chatMessages {
     height: 420px;
     overflow-y: scroll;
