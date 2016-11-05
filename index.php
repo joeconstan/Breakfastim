@@ -29,7 +29,7 @@
 
 	<body bgcolor = "#FFFFFF">
 	
-		<div align = "center">
+		  <div align = "center">
 			<div style = "width:300px; border: solid 1px #333333; " align = "left">
             <div style = "background-color:#333333; color:#FFFFFF; padding:3px;"><b>Login</b></div>
 				
@@ -38,7 +38,8 @@
 			<form method="POST" action="Login.php" id="form1">
 				<input type="text" name="uname"> Username </input><br />
 				<input type="password" name="pass"> Password</input><br />
-				<button type="submit" form="form1" value="Submit">Submit</button><br />
+				<button type="submit" class = "login_page" value="Submit">Login</button><br />
+                <button type="submit" class = "create_profile" value="Submit">Register</button><br />
 			</form>
 					
             </div>
