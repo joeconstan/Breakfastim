@@ -1,47 +1,3 @@
-<<<<<<< HEAD
-* {
-    box-sizing: border-box;
-}
-
-.chatBox {
-    width: 500px;
-    height: 600px;
-    border: 2px solid;
-    border-color: lightskyblue;
-}
-
-.chatBox > .chatHeader {
-    width: 100%;
-    background: white;
-    padding: 10px;
-    text-align: center;
-}
-
-.chatBox > .chatHeader h3 {
-    margin: 5px;
-    padding: 20px;
-    font-weight: 800;
-    color: blue;
-}
-
-.chatBox > .chatMessages {
-    height: 420px;
-    overflow-y: scroll;
-}
-
-
-
-.chatBox > .chatBottom form input[type="text"]{
-    width: 85%;
-    padding: 1px;
-    padding-left: 10px;
-    border: 1px solid lightskyblue ;
-    border-radius: 5px;
-    margin: 5px;
-    height: 30px;
-}
-
-=======
 * {
     box-sizing: border-box;
 }
@@ -82,5 +38,3 @@
     margin: 5px;
     height: 30px;
 }
-
->>>>>>> origin/master

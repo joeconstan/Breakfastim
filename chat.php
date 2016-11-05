@@ -13,8 +13,9 @@
 
 <body>
 
-<div class="chatBox">
 
+
+<div class="container-fluid chatBox">
     <div class="chatHeader">
         <h3>Welcome to Chat</h3>
         <hr>
@@ -30,9 +31,9 @@
             <button type="submit" name="submit" value="Post"> Post </button>
         </form>
     </div>
-
-
 </div>
+
+
 
 
 </body>
