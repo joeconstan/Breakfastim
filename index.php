@@ -39,9 +39,11 @@
 				<input type="text" name="uname"> Username </input><br />
 				<input type="password" name="pass"> Password</input><br />
 				<button type="submit" class = "login_page" value="Submit">Login</button><br />
-                <button type="submit" class = "create_profile" value="Submit">Register</button><br />
 			</form>
-					
+              
+            <form method="POST" action="register.php" id="form2">
+                <button type="submit" class = "create_profile" value="Submit">Register</button><br />
+            </form>
             </div>
 			</div>
 			
