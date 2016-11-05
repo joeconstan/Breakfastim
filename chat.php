@@ -13,18 +13,21 @@
 
 <body>
 
-<div class="chatContainer">
+<div class="chatBox">
+
     <div class="chatHeader">
         <h3>Welcome to Chat</h3>
+        <hr>
     </div>
-    <div class="chatMessages">
 
+    <div class="chatMessages">
     </div>
+    <hr width="96%">
     <div class="chatBottom">
         <form action="#" onsubmit="return false" id="chatForm">
             <input type="hidden" id="name"/>
             <input type="text" name="text" id="text" value="" placeholder="type your message here"/>
-
+            <input type="submit" name="submit" value="Post"/>
         </form>
     </div>
 
