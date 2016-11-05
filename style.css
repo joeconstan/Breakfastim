@@ -28,9 +28,6 @@
     overflow-y: scroll;
 }
 
-.chatBox > .chatBottom form input[type="submit"]{
-    cursor: pointer;
-}
 
 .chatBox > .chatBottom form input[type="text"]{
     width: 85%;
