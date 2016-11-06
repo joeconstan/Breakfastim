@@ -4,7 +4,7 @@
 
 .chatBox {
     width: 500px;
-    height: 600px;
+    height: 700px;
     border: 2px solid;
     border-color: lightskyblue;
 }
@@ -13,7 +13,6 @@
     width: 100%;
     background: white;
     padding: 10px;
-    text-align: center;
 }
 
 .chatBox > .chatHeader h3 {
@@ -21,6 +20,7 @@
     padding: 20px;
     font-weight: 800;
     color: blue;
+    text-align: center;
 }
 
 .chatBox > .chatMessages {
@@ -37,4 +37,40 @@
     border-radius: 5px;
     margin: 5px;
     height: 30px;
+}
+
+
+.userBox {
+    width: 200px;
+    height: 700px;
+    border: 2px solid;
+    border-color: lightskyblue;
+}
+
+
+.userBox > .chatUser {
+    margin: 5px;
+    padding: 20px;
+    font-weight: 800;
+    color: blue;
+    text-align: center;
+}
+
+.userBox > .userList {
+    height: 420px;
+    overflow-y: scroll;
+}
+
+.userBox > .searchUser form input[type="text"]{
+    width: 60%;
+    padding: 1px;
+    padding-left: 10px;
+    border: 1px solid lightskyblue ;
+    border-radius: 5px;
+    margin: 5px;
+    height: 30px;
+}
+
+.marg{
+    margin-left: 5px;
 }
