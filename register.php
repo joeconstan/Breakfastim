@@ -23,7 +23,7 @@
             <input type="text" name="lastName"> Last Name </input><br />
             <input type="text" name="userName"> Username </input><br />
             <input type="password" name="password"> Password</input><br />
-            <button type="submit" class = "login_page" value="Submit">Login</button><br />
+            <button type="submit" class = "login_page" value="Submit">Create Account</button><br />
         </form>
     </div>
 </div>

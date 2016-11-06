@@ -7,7 +7,7 @@
     }
 
 
-
+    
     $query = "insert into friends password FROM users WHERE username=?";
     $stmt = mysqli_stmt_init($connection);
     mysqli_stmt_prepare($stmt, $query);
