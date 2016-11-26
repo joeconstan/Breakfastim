@@ -41,7 +41,7 @@
 				<button type="submit" class = "login_page" value="Submit">Login</button><br />
 			</form>
               
-            <form method="POST" action="preregister.php" id="form2">
+            <form method="POST" action="register.php" id="form2">
                 <button type="submit" class = "create_profile" value="Submit">Register</button><br />
             </form>
             </div>

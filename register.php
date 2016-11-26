@@ -21,8 +21,8 @@
         <form method="POST" action="newUser.php" id="form3">
             <input type="text" name="firstName"> First Name </input><br />
             <input type="text" name="lastName"> Last Name </input><br />
-            <input type="text" name="userName"> Username </input><br />
-            <input type="password" name="password"> Password</input><br />
+            <input type="text" name="newuname"> Username </input><br />
+            <input type="password" name="newpswd"> Password</input><br />
             <button type="submit" class = "login_page" value="Submit">Create Account</button><br />
         </form>
     </div>
