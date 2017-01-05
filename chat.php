@@ -4,6 +4,7 @@
 	include 'dbconnect.php';
 	$connection = mysqli_connect($mysql_host, $mysql_user, $mysql_pass, $dbname);
 	if (isset($_POST['searchTerm'])){
+		setcookie("searchTermm", $_POST['searchTerm'], time()+30);
 		$searchName = $_POST['searchTerm'];
 		$query = "SELECT username FROM users WHERE username=?";
 		$stmt = mysqli_stmt_init($connection);
