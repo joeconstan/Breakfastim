@@ -1,4 +1,6 @@
 <?php
+
+	$messages = $_POST['message'];
 	include 'dbconnect.php';
 	$connection = mysqli_connect($mysql_host, $mysql_user, $mysql_pass, $dbname);
 	if (isset($_POST['searchTerm'])){
@@ -38,13 +40,14 @@
                 </div>
 
                 <div class="chatMessages">
+					<p><?php echo $messages; ?></p>
                 </div>
 
                 <hr width="96%">
                 <div class="chatBottom">
                     <form action="" method="POST" id="chatForm">
                         <input type="hidden" id="name"/>
-                        <input type="text" name="text" id="text" value="" placeholder="type your message here"/>
+                        <input type="text" name="message" id="text" value="" placeholder="type your message here"/>
                         <button type="submit" name="submit" value="Post"> Send </button>
                     </form>
                </div>
@@ -53,11 +56,11 @@
             <div class="col-md-4 marg userBox">
                 <div class="chatUser">
                     <h3>Users</h3>
-                    <p><?php echo $foundName; ?></p>
+            
 
                 </div>
                 <hr width="94%">
-
+					<p><?php echo $foundName; ?></p>
                 <div class="userList">
                 </div>
 
