@@ -21,7 +21,7 @@
 
 <html>
 <head>
-    <title>Welcome To Chat</title>
+    <title>Welcome To GOAT</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet" />
 </head>
