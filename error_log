@@ -1,0 +1,173 @@
+[22-Oct-2016 16:08:18 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/index.php:4) in /home/breaycks/public_html/index.php on line 7
+[22-Oct-2016 16:08:54 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/index.php:4) in /home/breaycks/public_html/index.php on line 7
+[22-Oct-2016 16:10:53 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/index.php:4) in /home/breaycks/public_html/index.php on line 7
+[22-Oct-2016 16:11:41 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/index.php:4) in /home/breaycks/public_html/index.php on line 7
+[28-Oct-2016 17:15:09 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/index.php:4) in /home/breaycks/public_html/index.php on line 7
+[28-Oct-2016 17:25:08 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/index.php:4) in /home/breaycks/public_html/index.php on line 7
+[28-Oct-2016 17:52:37 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/index.php:4) in /home/breaycks/public_html/index.php on line 7
+[28-Oct-2016 17:58:26 America/New_York] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/breaycks/public_html/Login.php on line 2
+[28-Oct-2016 17:58:26 America/New_York] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/breaycks/public_html/Login.php on line 2
+[28-Oct-2016 17:58:26 America/New_York] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/breaycks/public_html/Login.php on line 2
+[28-Oct-2016 17:58:26 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/breaycks/public_html/Login.php:2) in /home/breaycks/public_html/Login.php on line 3
+[28-Oct-2016 17:58:26 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/breaycks/public_html/Login.php:2) in /home/breaycks/public_html/Login.php on line 3
+[28-Oct-2016 17:58:34 America/New_York] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/breaycks/public_html/Login.php on line 2
+[28-Oct-2016 17:58:34 America/New_York] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/breaycks/public_html/Login.php on line 2
+[28-Oct-2016 17:58:34 America/New_York] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/breaycks/public_html/Login.php on line 2
+[28-Oct-2016 17:58:34 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/breaycks/public_html/Login.php:2) in /home/breaycks/public_html/Login.php on line 3
+[28-Oct-2016 17:58:34 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/breaycks/public_html/Login.php:2) in /home/breaycks/public_html/Login.php on line 3
+[28-Oct-2016 17:58:34 America/New_York] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/breaycks/public_html/Login.php on line 8
+[28-Oct-2016 17:58:34 America/New_York] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/breaycks/public_html/Login.php on line 9
+[28-Oct-2016 17:58:34 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/breaycks/public_html/Login.php on line 12
+[28-Oct-2016 17:58:34 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/breaycks/public_html/Login.php on line 13
+[28-Oct-2016 17:58:34 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/breaycks/public_html/Login.php on line 16
+[28-Oct-2016 17:59:22 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/index.php:4) in /home/breaycks/public_html/index.php on line 7
+[28-Oct-2016 18:05:25 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/index.php:4) in /home/breaycks/public_html/index.php on line 7
+[28-Oct-2016 18:05:34 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/index.php:4) in /home/breaycks/public_html/index.php on line 7
+[28-Oct-2016 18:12:01 America/New_York] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/breaycks/public_html/index.php on line 5
+[28-Oct-2016 18:12:05 America/New_York] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/breaycks/public_html/index.php on line 5
+[28-Oct-2016 18:14:03 America/New_York] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/breaycks/public_html/index.php on line 5
+[28-Oct-2016 19:01:53 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'breaycks'@'localhost' to database 'users' in /home/breaycks/public_html/Login.php on line 4
+[28-Oct-2016 19:01:56 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'breaycks'@'localhost' to database 'users' in /home/breaycks/public_html/Login.php on line 4
+[28-Oct-2016 19:02:04 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'breaycks'@'localhost' to database 'users' in /home/breaycks/public_html/Login.php on line 4
+[28-Oct-2016 19:03:35 America/New_York] PHP Warning:  mysqli_stmt_bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 19:03:35 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/Login.php:18) in /home/breaycks/public_html/Login.php on line 31
+[28-Oct-2016 19:03:42 America/New_York] PHP Warning:  mysqli_stmt_bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 19:16:02 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 19:16:02 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/Login.php:18) in /home/breaycks/public_html/Login.php on line 30
+[28-Oct-2016 19:17:03 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 19:17:03 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/Login.php:18) in /home/breaycks/public_html/Login.php on line 30
+[28-Oct-2016 19:26:55 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 19:26:55 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/Login.php:18) in /home/breaycks/public_html/Login.php on line 30
+[28-Oct-2016 19:27:07 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 19:27:07 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/Login.php:18) in /home/breaycks/public_html/Login.php on line 30
+[28-Oct-2016 19:27:34 America/New_York] PHP Warning:  mysqli_stmt_bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 19:27:34 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/Login.php:18) in /home/breaycks/public_html/Login.php on line 30
+[28-Oct-2016 19:32:48 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 19:32:48 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/Login.php:19) in /home/breaycks/public_html/Login.php on line 31
+[28-Oct-2016 19:34:48 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 19:36:52 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 20
+[28-Oct-2016 19:37:21 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 20
+[28-Oct-2016 19:55:50 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 19:56:04 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 19:56:09 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 20:04:16 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 20:04:37 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 20:09:34 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 20:10:32 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 20:10:32 America/New_York] PHP Warning:  mysqli_stmt_error() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 20
+[28-Oct-2016 20:13:59 America/New_York] PHP Fatal error:  Call to a member function mysqli_stmt_bind_param() on a non-object in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 20:14:47 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 20:14:47 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:14:47 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:14:47 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:14:47 America/New_York] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 24
+[28-Oct-2016 20:15:42 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 20:15:42 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:15:42 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:15:42 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:15:42 America/New_York] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 24
+[28-Oct-2016 20:17:14 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 20:17:14 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 20
+[28-Oct-2016 20:17:14 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:17:14 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:17:14 America/New_York] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:17:41 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 20:17:41 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 20
+[28-Oct-2016 20:17:41 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:17:41 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:17:41 America/New_York] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:18:12 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 20:18:12 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 20
+[28-Oct-2016 20:18:12 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:18:12 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:18:12 America/New_York] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:19:43 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 20:19:43 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 20
+[28-Oct-2016 20:19:43 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:19:43 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:19:43 America/New_York] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, boolean given in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:20:58 America/New_York] PHP Warning:  mysqli_stmt_prepare() expects parameter 1 to be mysqli_stmt, object given in /home/breaycks/public_html/Login.php on line 17
+[28-Oct-2016 20:20:58 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 20:20:58 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 20
+[28-Oct-2016 20:20:58 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:20:58 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:20:58 America/New_York] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:23:40 America/New_York] PHP Warning:  mysqli_stmt_prepare() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 17
+[28-Oct-2016 20:23:40 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 20:23:40 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 20
+[28-Oct-2016 20:23:40 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:23:40 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:23:40 America/New_York] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:25:19 America/New_York] PHP Warning:  mysqli_stmt_prepare() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 20:25:19 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 20:25:19 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:25:19 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:25:19 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:25:19 America/New_York] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 24
+[28-Oct-2016 20:26:46 America/New_York] PHP Warning:  mysqli_stmt_bind_param(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 20:26:46 America/New_York] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:26:46 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:26:46 America/New_York] PHP Warning:  mysqli_stmt_fetch(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:26:46 America/New_York] PHP Warning:  mysqli_stmt_close(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 24
+[28-Oct-2016 20:27:12 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 20:27:12 America/New_York] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:27:12 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:27:12 America/New_York] PHP Warning:  mysqli_stmt_fetch(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:27:12 America/New_York] PHP Warning:  mysqli_stmt_close(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 24
+[28-Oct-2016 20:31:29 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 20:31:29 America/New_York] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:31:29 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:31:29 America/New_York] PHP Warning:  mysqli_stmt_fetch(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:31:29 America/New_York] PHP Warning:  mysqli_stmt_close(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 24
+[28-Oct-2016 20:31:42 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, string given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 20:31:42 America/New_York] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:31:42 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:31:42 America/New_York] PHP Warning:  mysqli_stmt_fetch(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:31:42 America/New_York] PHP Warning:  mysqli_stmt_close(): invalid object or resource mysqli_stmt
+ in /home/breaycks/public_html/Login.php on line 24
+[28-Oct-2016 20:46:41 America/New_York] PHP Warning:  mysqli_stmt_init() expects parameter 1 to be mysqli, string given in /home/breaycks/public_html/Login.php on line 17
+[28-Oct-2016 20:46:41 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 20:46:41 America/New_York] PHP Warning:  mysqli_stmt_prepare() expects parameter 1 to be mysqli_stmt, object given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 20:46:41 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:46:41 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:46:41 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:46:41 America/New_York] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 24
+[28-Oct-2016 20:47:44 America/New_York] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 18
+[28-Oct-2016 20:47:44 America/New_York] PHP Warning:  mysqli_stmt_prepare() expects parameter 1 to be mysqli_stmt, object given in /home/breaycks/public_html/Login.php on line 19
+[28-Oct-2016 20:47:44 America/New_York] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 21
+[28-Oct-2016 20:47:44 America/New_York] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 22
+[28-Oct-2016 20:47:44 America/New_York] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 23
+[28-Oct-2016 20:47:44 America/New_York] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/breaycks/public_html/Login.php on line 24
+[04-Nov-2016 15:34:16 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/breaycks/public_html/Login.php on line 28
+[04-Nov-2016 15:36:15 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/breaycks/public_html/Login.php on line 28
+[04-Nov-2016 15:38:07 America/New_York] PHP Warning:  mysqli_stmt_num_rows(): Couldn't fetch mysqli_stmt in /home/breaycks/public_html/Login.php on line 28
+[04-Nov-2016 15:39:11 America/New_York] PHP Warning:  mysqli_stmt_store_result(): Couldn't fetch mysqli_stmt in /home/breaycks/public_html/Login.php on line 27
+[04-Nov-2016 15:39:11 America/New_York] PHP Warning:  mysqli_stmt_num_rows(): Couldn't fetch mysqli_stmt in /home/breaycks/public_html/Login.php on line 28
+[05-Nov-2016 18:25:29 America/New_York] PHP Warning:  mysqli_stmt_num_rows() expects exactly 1 parameter, 0 given in /home/breaycks/public_html/Login.php on line 25
+[06-Nov-2016 17:10:17 America/New_York] PHP Parse error:  syntax error, unexpected '?>' in /home/breaycks/public_html/register.php on line 4
+[25-Nov-2016 11:05:34 America/New_York] PHP Parse error:  syntax error, unexpected ''s, $searchName);' (T_ENCAPSED_AND_WHITESPACE) in /home/breaycks/public_html/search.php on line 8
+[25-Nov-2016 11:06:54 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/breaycks/public_html/search.php on line 14
+[25-Nov-2016 11:12:23 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/breaycks/public_html/search.php on line 12
+[25-Nov-2016 13:17:30 America/New_York] PHP Warning:  mysqli_stmt_init() expects parameter 1 to be mysqli, null given in /home/breaycks/public_html/search.php on line 6
+[25-Nov-2016 13:17:30 America/New_York] PHP Fatal error:  Function name must be a string in /home/breaycks/public_html/search.php on line 7
+[25-Nov-2016 13:18:22 America/New_York] PHP Fatal error:  Function name must be a string in /home/breaycks/public_html/search.php on line 8
+[25-Nov-2016 13:21:39 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/breaycks/public_html/search.php on line 22
+[25-Nov-2016 15:38:54 America/New_York] PHP Fatal error:  Only variables can be passed by reference in /home/breaycks/public_html/newUser.php on line 12
+[25-Nov-2016 15:40:47 America/New_York] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/breaycks/public_html/newUser.php on line 14
+[25-Nov-2016 15:40:47 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/breaycks/public_html/newUser.php:14) in /home/breaycks/public_html/newUser.php on line 24
