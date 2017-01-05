@@ -35,7 +35,7 @@
     <div class="row">
         <div class="col-md-6 chatBox">
                 <div class="chatHeader">
-                    <h3>Welcome to Chat</h3>
+                    <h3>Welcome to GOAT</h3>
                     <hr>
                 </div>
 
@@ -62,7 +62,10 @@
                 <hr width="94%">
 					<p><?php echo $foundName; ?></p>
                 <div class="userList">
-                </div>
+				<form method="POST" action="addfriend.php">
+					<button type="submit" name="add" value="Post"> Add </button>
+                </form>
+				</div>
 
                 <hr width="94%">
                 <div class="searchUser">

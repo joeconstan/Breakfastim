@@ -8,7 +8,7 @@
 
 
     
-    $query = "insert into friends password FROM users WHERE username=?";
+    $query = "insert into friends id FROM users WHERE username=?";
     $stmt = mysqli_stmt_init($connection);
     mysqli_stmt_prepare($stmt, $query);
     mysqli_stmt_bind_param($stmt, 's', $un);
