@@ -20,29 +20,61 @@
 	
 ?>
 
-<html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Welcome To GOAT</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet" />
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
+    <style>
+        li a:hover {
+            background-color: #111;
+        }
+    body {
+        font-family: 'Oswald', sans-serif;
 
+    }
+        h1 {
+            color: #1e90ff;
+            padding: 50px;
+        }
+    </style>
 </head>
+
 <body>
 
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li><a href="#">BREAKFASTIM</a></li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Messages</a></li>
+            <li><a href="#">Users</a></li>
+            <li><a href="#">Goat Pics</a></li>
+        </ul>
+    </div>
+</nav>
+
 <div class="container-fluid">
+
     <div class="row">
-        <div class="col-md-6 chatBox">
+        <h1 align="center" > WELCOME TO GOAT</h1>
+        <div class="col-sm-6 chatBox">
                 <div class="chatHeader">
-                    <h3>Welcome to GOAT</h3>
+                    <h3>Messages</h3>
                     <hr>
                 </div>
-
                 <div class="chatMessages">
 					<p><?php echo $messages; ?></p>
                 </div>
@@ -51,41 +83,55 @@
                 <div class="chatBottom">
                     <form action="" method="POST" id="chatForm">
                         <input type="hidden" id="name"/>
-                        <input type="text" name="message" id="text" value="" placeholder="type your message here"/>
+                        <input type="text" name="message" id="text" value="" placeholder="Type your message here"/>
                         <button type="submit" name="submit" class="btn btn-primary" value="Post"> Send </button>
                     </form>
                </div>
             </div>
-            <!-- changed md-4 to md-6 -->
-            <div class="col-md-4 marg userBox">
+            <!-- changed md-4 to sm-4 -->
+            <div class="col-sm-6 userBox">
                 <div class="chatUser">
                     <h3>Users</h3>
-            
 
                 </div>
-                <hr width="94%">
+                <hr width="96%">
                 <p><?php echo $foundName; ?></p>
                 <div class="userList">
 				<form method="POST" action="addfriend.php">
-					<button type="submit" name="add"  value="Post" class="btn btn-primary" style="display:block;"> Add </button>
+					<button type="submit" name="add" id="addd" value="Post" class="btn btn-primary" style="display: block"> Add </button>
 
                 </form>
 				</div>
-
-                <hr width="94%">
+                <hr width="96%">
                 <div class="searchUser">
                     <form method="POST" id="userSearch">
                         <input type="hidden" id="name"/>
-                        <input type="text" name="searchTerm" id="text" value="" placeholder="search for friends"/>
-                        <button type="submit" name="submit" value="Post" class="btn btn-primary"> Search </button>
-
+                        <input type="text" name="searchTerm" id="text" value="" placeholder="Search for friends"/>
+                        <button type="submit" name="submit" value="Post" class="btn btn-primary" id="search"> Search </button>
+                        <!--onclick="getElementById('addd').style.display = 'block';"-->
                     </form>
                 </div>
 
             </div>
-    </div>
-</div>
 
+    </div>
+
+
+</div>
+<!-- js code to display add button after search button is clicked..
+<script type="text/javascript">
+    var button = document.getElementById('search')
+    button.addEventListener('click',showadd,false);
+    function showadd() {
+
+       // document.getElementById('addd').style.display = 'block';
+       //  if(found != ""){
+       //  addd.style.display = "block";
+
+   // }
+</script>
+
+-->
 </body>
 
 </html>
