@@ -69,7 +69,7 @@
 <div class="container-fluid">
 
     <div class="row">
-        <h1 align="center" > WELCOME TO GOAT</h1>
+        <h1 align="center" > Welcome <?php echo $_COOKIE["user"]; ?></h1>
         <div class="col-sm-6 chatBox">
                 <div class="chatHeader">
                     <h3>Messages</h3>

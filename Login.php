@@ -26,7 +26,8 @@
     mysqli_stmt_close($stmt);
 
     if ($pswd == $actualPass && $count > 0){
-		setcookie("user", "joe", time()+3600);
+		setcookie("user");			
+		setcookie("user", $un, time()+3600, "/", $_SERVER['www.breakfastim.com/chat.php']);
         header("location: http://www.breakfastim.com/chat.php", true);
         exit;
     }else{

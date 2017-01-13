@@ -18,9 +18,7 @@
 	mysqli_stmt_bind_result($stmt1, $one);
    mysqli_stmt_store_result($stmt1);   
     mysqli_stmt_fetch($stmt1);
-	echo $currentuser;
     $count1 = mysqli_stmt_num_rows($stmt1);
-	echo $count1;
     mysqli_stmt_close($stmt1);
 	
 	
@@ -51,6 +49,9 @@
 
     mysqli_stmt_close($stmt3);
     mysqli_close($connection);
+	
+	
+	header("location: http://www.breakfastim.com/chat.php", true);
 
 
 
