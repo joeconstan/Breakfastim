@@ -18,7 +18,6 @@
     mysqli_stmt_execute($stmt);
     mysqli_stmt_bind_result($stmt, $actualPass);
 
-
     $pswd = $_POST['pass'];
     mysqli_stmt_store_result($stmt);
     mysqli_stmt_fetch($stmt);

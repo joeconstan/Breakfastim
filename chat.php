@@ -20,10 +20,6 @@
 	
 ?>
 
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,24 +29,30 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<style>
+    li a:hover {
+        background-color: #111;
+    }
 
-    <style>
-        li a:hover {
-            background-color: #111;
-        }
+    h1 {
+        color: #1e90ff;
+        padding: 50px;
+    }
+    h3{
+        padding-bottom: 32px;
+    }
+
     body {
         font-family: 'Oswald', sans-serif;
-
     }
-        h1 {
-            color: #1e90ff;
-            padding: 50px;
-        }
-    </style>
+
+</style>
 </head>
+
 
 <body>
 
@@ -64,16 +66,16 @@
             <li><a href="#">Goat Pics</a></li>
         </ul>
     </div>
-</nav>
+
 
 <div class="container-fluid">
 
     <div class="row">
-        <h1 align="center" > Welcome <?php echo $_COOKIE["user"]; ?></h1>
-        <div class="col-sm-6 chatBox">
+        <h1 align="center" > Welcome <?php echo $_COOKIE["user"]; ?>!</h1>
+        <div class="col-md-6 chatBox">
                 <div class="chatHeader">
                     <h3>Messages</h3>
-                    <hr>
+                   <hr>
                 </div>
                 <div class="chatMessages">
 					<p><?php echo $messages; ?></p>
@@ -89,17 +91,15 @@
                </div>
             </div>
             <!-- changed md-4 to sm-4 -->
-            <div class="col-sm-6 userBox">
+            <div class="col-md-6 userBox">
                 <div class="chatUser">
                     <h3>Users</h3>
-
+                    <hr>
                 </div>
-                <hr width="96%">
                 <p><?php echo $foundName; ?></p>
                 <div class="userList">
 				<form method="POST" action="addfriend.php">
 					<button type="submit" name="add" id="addd" value="Post" class="btn btn-primary" style="display: block"> Add </button>
-
                 </form>
 				</div>
                 <hr width="96%">
@@ -108,7 +108,6 @@
                         <input type="hidden" id="name"/>
                         <input type="text" name="searchTerm" id="text" value="" placeholder="Search for friends"/>
                         <button type="submit" name="submit" value="Post" class="btn btn-primary" id="search"> Search </button>
-                        <!--onclick="getElementById('addd').style.display = 'block';"-->
                     </form>
                 </div>
 
