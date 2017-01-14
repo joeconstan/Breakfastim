@@ -21,106 +21,98 @@
 
 		<style type = "text/css">
 
-            .button {
-                background-color: #4CAF50; /* Green */
-                border: none;
-                color: white;
-                padding: 16px 32px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 16px;
-                margin: 4px 2px;
-                -webkit-transition-duration: 0.4s; /* Safari */
-                transition-duration: 0.4s;
-                cursor: pointer;
-            }
-
             .button2 {
                 background-color: white;
-                color: black;
-                border: 2px solid #008CBA;
+                color: dodgerblue;
+                border: 2px solid dodgerblue;
             }
-
             .button2:hover {
-                background-color: #008CBA;
+                background-color: dodgerblue;
                 color: white;
+                border: 2px solid white;
             }
-
             .button5 {
                 background-color: white;
                 color: black;
-                border: 2px solid #555555;
+                border: 2px solid black;
             }
 
             .button5:hover {
-                background-color: #555555;
+                background-color: black;
                 color: white;
+                border: 2px solid white;
             }
-
 			body {
 				font-family: 'Fira Sans Condensed', sans-serif;
 				font-size: 16px;
-			}
-			
+                background-color: white;
+            }
 			label {
 				font-weight: bold;
 				width: 100px;
-				font-size: 14px;
-			}
-			
+				font-size: 15px;
+            }
 			h1{
 				color: white;
+                margin-left: 20px;
 			}
-			.blackbg{
-				background-color: black;
+			.bluebg{
+				background-color: dodgerblue;
 			}
-
+            .col-sm-10{
+                padding-left: 23px;
+            }
+            #form2{
+                margin-left: 65px;
+            }
+            #pwd, #uname{
+                color:dodgerblue;
+            }
 		</style>
 
 	</head>
 
-<div class="blackbg">
+<div class="bluebg">
 	      
 	      <h1>BREAKFASTIM</h1>
 </div>
 
-		  <div align = "center">
-			<div style = "width:300px; border: solid 1px #000000; " align = "left">
-            <div style = "background-color:#000000; color:#FFFFFF; padding:3px;"><b>Login</b></div>
-				
-            <div style = "margin:30px">
+		 <div align = "center" style="margin-top: 40px">
 
-			<form method="POST" action="Login.php" id="form1">
+		<div style = "width:367px; border: solid 2px #1e90ff; " align = "left">
+            <div style = "background-color: dodgerblue; color:white; padding:3px;"><b>Login</b></div>
 
-				<input type="text" name="uname" placeholder="username"> Username </input><br />
-                <input type="password" name="pass" placeholder="password"> Password</input><br />
-                <button type="submit" class= "btn btn-default button5" name="login" id="login" value="Submit" >Login</button>
+            <div style = "margin:20px">
+			<form method="POST" action="Login.php" id="form1" class="form-horizontal">
+                <div class="form-group">
+                <label class="control-label col-sm-2" for="uname" id="uname">Username:</label>
+				<div class="col-sm-10">
+                    <input type="text" name="uname" placeholder="username"> <br />
+                </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" id="pwd" for="pwd">Password:</label>
+                    <div class="col-sm-10">
+                <input type="password" name="pass" placeholder="password"> <br />
+
+                    </div>
+                    </div>
+                <div class="form-group" >
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class= "btn btn-default button2" name="login" id="login" value="Submit" style="width:180px;">Login</button>
+                    </div>
+                </div>
+
             </form>
 
-            <form method="POST" action="register.php" id="form2">
-                <button type="submit" class = "btn btn-default button2" id="register" value="Submit">Register</button><br />
-            </form>
+                <form method="POST" action="register.php" id="form2"">
+                    <button type="submit" class = "btn btn-default button5" id="register" value="Submit" style="width: 180px">Register</button><br />
 
-            </div>
-			</div>
+                </form>
+           </div>
 		</div>
-<!--
-		  <form class="form-horizontal" method="POST" action="Login.php" id="form1">
-			  <div class="form-group">
-				  <label class="control-label col-sm-2" for="uname">Username:</label>
-				  <div class="col-sm-10">
-					  <input type="text" class= "form-control" placeholder="username">
-				  </div>
-			  </div>
 
-			  <div class="form-group">
-				  <label class="control-label col-sm-2" for="pwd">Password:</label>
-				  <div class="col-sm-10">
-					  <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-				  </div>
-			  </div>
-    -->          <!-- remember me doesnt work yet lol -->
+              <!-- remember me doesnt work yet lol -->
 <!--
 			  	  <div class="form-group">
 				  <div class="col-sm-offset-2 col-sm-10">
@@ -129,16 +121,6 @@
 					  </div>
 				  </div>
 			  </div>
-              <div class="form-group" >
-				  <div class="col-sm-offset-2 col-sm-10">
-                      <button type="submit" class="btn btn-default button5" name="login" id="login" value="Submit">Login</button>
-				  </div>
-			  </div>
-		  </form>
-
-    <form method="POST" action="register.php" id="form2">
-        <button type="submit" class = "btn btn-default" id="register" value="Submit">Register</button><br />
-    </form>
 -->
 	</body>
     </html>
