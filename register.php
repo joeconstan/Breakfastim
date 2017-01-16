@@ -3,7 +3,7 @@
 
 ?>
 
-<html>.
+<html>
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -68,7 +68,6 @@
     }
     #pwd, #uname, #firstName, #lastName{
         color:dodgerblue;
-
     }
 
 </style>
@@ -84,51 +83,75 @@
     </div>
 
 
+    <div class = "regInfo">
         <div align = "center" style="margin-top: 40px">
 
             <div style = "width: 450px; border: solid 2px #1e90ff; " align = "left">
                 <div style = "background-color: dodgerblue; color:white;"><b>Register</b></div>
-
                 <div style = "margin:10px">
-        <form method="POST" action="newUser.php" id="form3" class="form-horizontal">
-            <div class="form-group">
-                <label class="control-label col-sm-2" for="firstName" id="firstName">First Name:</label>
-                <div class="col-sm-10">
-                    <input type="text" name="firstName" placeholder="First Name"> <br />
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="control-label col-sm-2" id="lastName" for="lastName">Last Name:</label>
-                <div class="col-sm-10">
-                    <input type="text" name="lastName" placeholder="Last Name"> <br />
+        <form method="POST" action="newUser.php" id="form3">
 
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="control-label col-sm-2" id="uname" for="uname">Username:</label>
-                <div class="col-sm-10">
-                    <input type="text" name="username" placeholder="Username"> <br />
-
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="control-label col-sm-2" id="pwd" for="pwd">Password: </label>
-                <div class="col-sm-10">
-                    <input type="text" name="pass" placeholder="password"> <br />
-
-                </div>
-            </div>
-            <div class="form-group" >
-                <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class= "btn btn-default button2" name="createacc" id="createacc" value="Submit" style="width:180px;">Create Account</button>
-                </div>
-            </div>
-
-        </form>
+            <input type="text" name="firstName"> First Name<br />
+            <input type="text" name="lastName"> Last Name <br />
+            <input type="text" name="newuname"> Username <br />
+            <input type="password" name="newpswd"> Password<br />
+            <button type="submit" class= "btn btn-default button2" name="createacc" id="createacc" value="Submit" style="width:180px;">Create Account</button>
+            </form>
                     </div>
                 </div>
             </div>
+        </div>
     </div>
+
+
+
+                <!--
+            <div align = "center" style="margin-top: 40px">
+
+                <div style = "width: 450px; border: solid 2px #1e90ff; " align = "left">
+                    <div style = "background-color: dodgerblue; color:white;"><b>Register</b></div>
+
+                    <div style = "margin:10px">
+            <form method="POST" action="newUser.php" id="form3" class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="firstName" id="firstName">First Name:</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="firstName" placeholder="First Name"> <br />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" id="lastName" for="lastName">Last Name:</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="lastName" placeholder="Last Name"> <br />
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" id="uname" for="uname">Username:</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="username" placeholder="Username"> <br />
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" id="pwd" for="pwd">Password: </label>
+                    <div class="col-sm-10">
+                        <input type="text" name="pass" placeholder="password"> <br />
+
+                    </div>
+                </div>
+                <div class="form-group" >
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class= "btn btn-default button2" name="createacc" id="createacc" value="Submit" style="width:180px;">Create Account</button>
+                    </div>
+                </div>
+
+            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    -->
 
 </body>
 </html>

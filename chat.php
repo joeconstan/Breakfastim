@@ -66,7 +66,7 @@
             <li><a href="#">Goat Pics</a></li>
         </ul>
     </div>
-
+</nav>
 
 <div class="container-fluid">
 
@@ -90,7 +90,6 @@
                     </form>
                </div>
             </div>
-            <!-- changed md-4 to sm-4 -->
             <div class="col-md-6 userBox">
                 <div class="chatUser">
                     <h3>Users</h3>
