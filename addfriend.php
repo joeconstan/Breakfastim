@@ -7,7 +7,7 @@
     }
 	
 	
-	$currentuser = $_COOKIE["user"];
+	$currentuser = $_SESSION["user"];
 	$query1 = "select user_id from users where username=?";
     $stmt1 = mysqli_stmt_init($connection);
     mysqli_stmt_prepare($stmt1, $query1);
