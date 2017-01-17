@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 .chatBox {
     width: 500px;
     height: 700px;
@@ -42,7 +41,7 @@
 
 
 .userBox {
-    width: 200px;
+    width: 500px;
     height: 700px;
     border: 2px solid;
     border-color: dodgerblue;

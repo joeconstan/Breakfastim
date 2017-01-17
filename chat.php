@@ -33,7 +33,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
 <style>
+
     li a:hover {
         background-color: #111;
     }
@@ -42,10 +44,10 @@
         color: #1e90ff;
         padding: 50px;
     }
+
     h3{
         padding-bottom: 32px;
     }
-
     body {
         font-family: 'Oswald', sans-serif;
     }
@@ -72,7 +74,7 @@
 
     <div class="row">
         <h1 align="center" > Welcome <?php echo $_SESSION["user"]; ?>!</h1>
-        <div class="col-md-6 chatBox">
+        <div class="col-md-6 chatBox marg">
                 <div class="chatHeader">
                     <h3>Messages</h3>
                    <hr>
@@ -90,8 +92,8 @@
                     </form>
                </div>
             </div>
-            <div class="col-md-6 userBox">
-                <div class="chatUser">
+            <div class="col-md-5 userBox marg">
+                <div class="chatUser ">
                     <h3>Users</h3>
                     <hr>
                 </div>
