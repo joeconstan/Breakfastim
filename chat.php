@@ -58,23 +58,24 @@
 
 <body>
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <ul class="nav navbar-nav">
             <li><a href="#">BREAKFASTIM</a></li>
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Messages</a></li>
-            <li><a href="#">Users</a></li>
-            <li><a href="#">Goat Pics</a></li>
+            <li class="active"><a href="#">Home  <span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="#messagesss">Messages  <span class="glyphicon glyphicon-envelope"></span></a></li>
+            <li><a href="#">Users <span class="glyphicon glyphicon-user"></span></a></li>
+            <li><a href="#">Friends  <span class="glyphicon glyphicon-user"></span><span class="glyphicon glyphicon-user"></span></a></li>
         </ul>
     </div>
 </nav>
 
 <div class="container-fluid">
 
-    <div class="row">
+    <div class="row" style="padding-top: 35px;">
         <h1 align="center" > Welcome <?php echo $_SESSION["user"]; ?>!</h1>
         <div class="col-md-6 chatBox marg">
+            <section id="messagesss">
                 <div class="chatHeader">
                     <h3>Messages</h3>
                    <hr>
@@ -88,10 +89,11 @@
                     <form action="" method="POST" id="chatForm">
                         <input type="hidden" id="name"/>
                         <input type="text" name="message" id="text" value="" placeholder="Type your message here"/>
-                        <button type="submit" name="submit" class="btn btn-primary" value="Post"> Send </button>
+                        <button type="submit" name="submit" class="btn btn-primary" value="Post"> Send  <span class="glyphicon glyphicon-send"></span> </button>
                     </form>
                </div>
             </div>
+        </section>
             <div class="col-md-5 userBox marg">
                 <div class="chatUser ">
                     <h3>Users</h3>
@@ -100,7 +102,7 @@
                 <p><?php echo $foundName; ?></p>
                 <div class="userList">
 				<form method="POST" action="addfriend.php">
-					<button type="submit" name="add" id="addd" value="Post" class="btn btn-primary" style="display: block"> Add </button>
+					<button type="submit" name="add" id="addd" value="Post" class="btn btn-primary" style="display: block"> Add  <span class="glyphicon glyphicon-plus"></span></button>
                 </form>
 				</div>
                 <hr width="96%">
@@ -108,7 +110,7 @@
                     <form method="POST" id="userSearch">
                         <input type="hidden" id="name"/>
                         <input type="text" name="searchTerm" id="text" value="" placeholder="Search for friends"/>
-                        <button type="submit" name="submit" value="Post" class="btn btn-primary" id="search"> Search </button>
+                        <button type="submit" name="submit" value="Post" class="btn btn-primary" id="search"> Search  <span class="glyphicon glyphicon-search"></span></button>
                     </form>
                 </div>
 

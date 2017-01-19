@@ -30,7 +30,7 @@
 
 
 .chatBox > .chatBottom form input[type="text"]{
-    width: 85%;
+    width: 75%;
     padding: 1px;
     padding-left: 10px;
     border: 1px solid dodgerblue ;

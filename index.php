@@ -111,7 +111,7 @@
                 </form>
            </div>
 		</div>
-
+</div>
               <!-- remember me doesnt work yet lol -->
 <!--
 			  	  <div class="form-group">
